@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:shared_preferences/shared_preferences.dart';
-import '../bloc/check_bloc.dart';
+import '../../bloc/bloc/check_bloc.dart';
+import '../utils/assest_management.dart';
 import 'component/caouse_body.dart';
 
 class OnBoardingPage extends StatefulWidget {
@@ -37,20 +38,20 @@ class _OnBoardingPageState extends State<OnBoardingPage> {
                         _curPageIndex = value;
                       });
                     },
-                    children: const [
+                    children:  [
                       CarouselBodyWidget(
-                        imagePath: 'assets/images/onboarding/onboarding1.png',
+                        imagePath: AssetsManagement.onBoarding1,
                         title: 'Nearby restaurants',
                         description:
                         'Don\'t have to go far to find a good restaurant',
                       ),
                       CarouselBodyWidget(
-                        imagePath: 'assets/images/onboarding/onboarding2.png',
+                        imagePath: AssetsManagement.onBoarding2,
                         title: 'Convenient',
                         description: 'Online dish reservation',
                       ),
                       CarouselBodyWidget(
-                        imagePath: 'assets/images/onboarding/onboarding3.png',
+                        imagePath: AssetsManagement.onBoarding3,
                         title: 'Delicious',
                         description: 'Enjoy great food with your family',
                       ),
@@ -104,6 +105,7 @@ class _OnBoardingPageState extends State<OnBoardingPage> {
                         ],
                       ),
                       buildThreeDot(context)
+                      
                     ],
                   ),
                 )

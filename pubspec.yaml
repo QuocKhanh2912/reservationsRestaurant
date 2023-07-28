@@ -1,29 +1,13 @@
 name: reservation_restaurant
 description: A new Flutter project.
 
-
 publish_to: 'none'
-
-
-
-
-
-
-
-
-
-
-
 
 
 version: 1.0.0+1
 
 environment:
   sdk: '>=3.0.3 <4.0.0'
-
-
-
-
 
 
 
@@ -41,45 +25,41 @@ dev_dependencies:
     sdk: flutter
 
 
-  
-  
-  
-  
+
   
   flutter_lints: ^2.0.0
-
-
-
-
 
 flutter:
   uses-material-design: true
   assets:
     - assets/images/logo/
     - assets/images/onboarding/
+    - assets/images/home_page/
+    - assets/images/home_page/best_seller/
+    - assets/images/home_page/our_restaurant/
+    - assets/images/home_page/happy_deals/
+  fonts:
+    - family:  Montserrat
+      fonts:
+        - asset: assets/font/montserrat_weight_100.ttf
+          weight: 100
+        - asset: assets/font/montserrat_italic_weight_100.ttf
+          style: italic
+          weight: 100
+        - asset: assets/font/montserrat_weight_200.ttf
+          weight: 200
+        - asset: assets/font/montserrat_weight_300.ttf
+          weight: 300
+        - asset: assets/font/montserrat_weight_400.ttf
+          weight: 400
+        - asset: assets/font/montserrat_weight_500.ttf
+          weight: 500
+        - asset: assets/font/montserrat_weight_600.ttf
+          weight: 600
+        - asset: assets/font/montserrat_weight_700.ttf
+          weight: 700
+        - asset: assets/font/montserrat_weight_800.ttf
+          weight: 800
+        - asset: assets/font/montserrat_weight_900.ttf
+          weight: 900
 
-  
-  
-
-  
-  
-
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
