@@ -23,7 +23,7 @@ class _ItemOurRestaurantListViewState extends State<ItemOurRestaurantListView> {
             child: Image.asset(widget.item.restaurantImage, fit: BoxFit.fill)),
         Align(
           alignment: Alignment.bottomCenter,
-          child: Container(margin: EdgeInsets.only(top: 100,bottom: 10),
+          child: Container(margin: const EdgeInsets.only(top: 100,bottom: 10),
             decoration: BoxDecoration(
               borderRadius: BorderRadius.circular(10),
               color: ColorManagement.white,

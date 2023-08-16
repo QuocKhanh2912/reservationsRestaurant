@@ -1,7 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:reservation_restaurant/page/happy_deal_page/happy_deal_page.dart';
+import 'package:reservation_restaurant/page/authentication/forgot_password_page/success_change_password_page.dart';
+import 'package:reservation_restaurant/page/authentication/logged_in_page.dart';
+import 'package:reservation_restaurant/page/authentication/login_page.dart';
 import 'package:reservation_restaurant/page/home_page/home_page.dart';
+import 'package:reservation_restaurant/page/onboarding/onboading_page.dart';
+import 'package:reservation_restaurant/page/profile_page/profile_page.dart';
+import 'package:reservation_restaurant/page/reservartion_page/reservation_page.dart';
 import 'package:reservation_restaurant/page/utils/color_management.dart';
 import 'package:reservation_restaurant/routes/routes_management.dart';
 
@@ -30,13 +35,9 @@ class MyApp extends StatelessWidget {
           return MaterialApp(
             theme: ThemeData(
                 useMaterial3: true,
-                fontFamily: 'Montserrat',
-                colorScheme: ColorScheme.fromSeed(
-                    seedColor: Colors.deepPurple,
-                    background: ColorManagement.backgroundColor,
-                 )),
+                fontFamily: 'Montserrat',),
 
-            home: HomePage(),
+            home: const LoginPage(),
             // (state is AlReadyOnBoarding)?HomePage():OnBoardingPage(),
             // routes: {
             //   'on_boarding_page': (context) => const OnBoardingPage(),

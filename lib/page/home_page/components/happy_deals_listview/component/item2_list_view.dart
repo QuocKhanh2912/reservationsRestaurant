@@ -46,13 +46,12 @@ class _Item2BestSellerListViewState extends State<Item2BestSellerListView> {
                 children: [
                   Padding(
                     padding: EdgeInsets.only(left: 5, top: 5),
-                    child: Expanded(
-                        child: Text(
+                    child: Text(
                       'TRY NEW DISHES',
                       softWrap: true,
                       maxLines: 2,
                       style: FontManagement.titleHappyDeals,
-                    )),
+                    ),
                   ),
                   Padding(
                     padding: EdgeInsets.only(left: 5),

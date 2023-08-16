@@ -1,9 +1,11 @@
 import 'package:flutter/material.dart';
 
 import '../../data/happy_deals.dart';
+import '../home_page/components/happy_deals_listview/happy_deals_listview.dart';
 import '../utils/color_management.dart';
 import 'components/listview/component/item_1_listview.dart';
 import 'components/listview/component/item_2_listview.dart';
+import 'components/listview/happy_deals_page_listview.dart';
 
 class HappyDealsPage extends StatefulWidget {
   const HappyDealsPage({super.key, this.dataFromUser});
@@ -56,19 +58,7 @@ class _HappyDealsPageState extends State<HappyDealsPage> {
                   )
                 ],
               ),
-              Expanded(
-                child: Padding(
-                  padding: const EdgeInsets.only(left: 24, right: 24),
-                  child: ListView.separated(
-                    separatorBuilder: (context, index) =>
-                        const Divider(thickness: 10, color: Colors.transparent),
-                    itemCount: listHappyDeal.length,
-                    itemBuilder: (context, index) => index % 2 == 0
-                        ? Item1ListView(item: listHappyDeal[index])
-                        : Item2ListView(item: listHappyDeal[index]),
-                  ),
-                ),
-              ),
+              const HappyDealsPageListView()
             ],
           ),
         ));

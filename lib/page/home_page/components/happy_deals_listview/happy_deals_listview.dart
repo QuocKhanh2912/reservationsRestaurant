@@ -21,12 +21,12 @@ class _HappyDealsListViewState extends State<HappyDealsListView> {
         ),
         padding: const EdgeInsets.only(left: 24, right: 24,bottom: 24),
         shrinkWrap: true,
-        itemCount: listHappyDeal.length,
+        itemCount: listHappyDealMockData.length,
         itemBuilder: (context, index) => index % 2 == 0
             ? Item1BestSellerListView(
-                item: listHappyDeal[index],
+                item: listHappyDealMockData[index],
               )
-            : Item2BestSellerListView(item: listHappyDeal[index]),
+            : Item2BestSellerListView(item: listHappyDealMockData[index]),
         scrollDirection: Axis.horizontal,
       ),
     );

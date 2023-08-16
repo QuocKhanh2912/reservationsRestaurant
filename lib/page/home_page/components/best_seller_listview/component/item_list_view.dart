@@ -49,11 +49,12 @@ class _ItemBestSellerListViewState extends State<ItemBestSellerListView> {
               decoration: BoxDecoration(
                   color: ColorManagement.redAD3F32FF,
                   borderRadius: BorderRadius.circular(10)),
-              child: Text(
-                textAlign: TextAlign.center,
-                softWrap: true,
-                'Reserve',
-                style: FontManagement.biggerNormalStyle,
+              child: Align(alignment:Alignment.center,
+                child: Text(
+
+                  'Reserve',
+                  style: FontManagement.biggerNormalStyle,
+                ),
               ),
             ))
       ]),

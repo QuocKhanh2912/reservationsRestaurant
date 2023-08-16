@@ -22,10 +22,10 @@ class _OurRestaurantListViewState extends State<OurRestaurantListView> {
         padding: const EdgeInsets.only(left: 24,right: 24),
         shrinkWrap: true,
 
-        itemCount: listOurRestaurant.length,
+        itemCount: listOurRestaurantMockData.length,
         itemBuilder: (context, index) {
           return ItemOurRestaurantListView(
-            item: listOurRestaurant[index],
+            item: listOurRestaurantMockData[index],
           );
         },
         scrollDirection: Axis.vertical,

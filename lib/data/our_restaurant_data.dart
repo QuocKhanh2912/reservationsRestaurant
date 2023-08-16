@@ -26,7 +26,7 @@ OurRestaurantData ourRestaurant4 = OurRestaurantData(
     restaurantName: 'An BBQ Vo Van Ngan',
     addressRestaurant: 'No. 716 Vo Van Ngan, Binh Tho Ward, Thu Duc City, HCMC');
 
-List<OurRestaurantData> listOurRestaurant = [
+List<OurRestaurantData> listOurRestaurantMockData = [
   ourRestaurant1,
   ourRestaurant2,
   ourRestaurant3,

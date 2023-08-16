@@ -34,10 +34,19 @@ flutter:
   assets:
     - assets/images/logo/
     - assets/images/onboarding/
+    - assets/images/best_seller_page/
     - assets/images/home_page/
     - assets/images/home_page/best_seller/
     - assets/images/home_page/our_restaurant/
     - assets/images/home_page/happy_deals/
+    - assets/images/authentication/
+    - assets/images/authentication/forgot_password/
+    - assets/images/logged_in_page/
+    - assets/images/logged_out_page/
+    - assets/images/reservation_page/
+    - assets/images/review_page/
+    - assets/images/profile_page/
+    - assets/images/about_us_page/
   fonts:
     - family:  Montserrat
       fonts:

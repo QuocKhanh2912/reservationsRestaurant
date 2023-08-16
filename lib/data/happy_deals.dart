@@ -25,7 +25,7 @@ HappyDealsData happyDeal6 = HappyDealsData(
   dishImage: 'assets/images/home_page/happy_deals/happy_deals_6.png',
 );
 
-List<HappyDealsData> listHappyDeal = [
+List<HappyDealsData> listHappyDealMockData = [
   happyDeal1,
   happyDeal2,
   happyDeal3,

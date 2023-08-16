@@ -29,5 +29,7 @@ class FontManagement {
       fontSize: 14, color: ColorManagement.white, fontWeight: FontWeight.w600);
   static TextStyle? contentHappyDeals2 = TextStyle(
       fontSize: 14, color: ColorManagement.white, fontWeight: FontWeight.w400);
+  static TextStyle? titleBestSellerPage = const TextStyle(
+      fontSize: 20, color: Colors.black, fontWeight: FontWeight.w600);
 
 }

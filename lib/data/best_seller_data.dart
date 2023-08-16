@@ -26,7 +26,7 @@ BestSellerData bestSeller4 = BestSellerData(
     dishName: 'Salad',
     addressRestaurant: 'An BBQ Vo Van Ngan');
 
-List<BestSellerData> listBestSeller = [
+List<BestSellerData> listBestSellerMockData = [
   bestSeller1,
   bestSeller2,
   bestSeller3,

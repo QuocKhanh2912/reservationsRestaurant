@@ -5,9 +5,9 @@ import '../../utils/font_management.dart';
 
 
 class BestSellerSection extends StatelessWidget {
-  const BestSellerSection({Key? key,required this.nameTitle,required this.toPage}) : super(key: key);
+  const BestSellerSection({Key? key,required this.nameTitle,required this.onTapSeeAll}) : super(key: key);
   final String nameTitle;
-  final String toPage;
+  final VoidCallback onTapSeeAll;
 
   @override
   Widget build(BuildContext context) {
@@ -19,14 +19,14 @@ class BestSellerSection extends StatelessWidget {
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: [
               Text(
-                'Best seller',
+                nameTitle,
                 style: TextStyle(
                     fontSize: 18,
                     fontWeight: FontWeight.w600,
                     color: ColorManagement.brow_1),
               ),
               InkWell(onTap: () {
-                Navigator.pushNamed(context, toPage);
+                onTapSeeAll.call();
               },
                 child: Row(children: [ Text(
                   'See All',

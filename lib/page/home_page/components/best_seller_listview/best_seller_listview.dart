@@ -22,10 +22,10 @@ class _BestSellerListViewState extends State<BestSellerListView> {
           padding: const EdgeInsets.only(left: 24,right: 24),
           shrinkWrap: true,
 
-          itemCount: listBestSeller.length,
+          itemCount: listBestSellerMockData.length,
           itemBuilder: (context, index) {
             return ItemBestSellerListView(
-              item: listBestSeller[index],
+              item: listBestSellerMockData[index],
             );
           },
           scrollDirection: Axis.horizontal,
