@@ -37,7 +37,7 @@ class MyApp extends StatelessWidget {
                 useMaterial3: true,
                 fontFamily: 'Montserrat',),
 
-            home: const LoginPage(),
+            home: const HomePage(),
             // (state is AlReadyOnBoarding)?HomePage():OnBoardingPage(),
             // routes: {
             //   'on_boarding_page': (context) => const OnBoardingPage(),
